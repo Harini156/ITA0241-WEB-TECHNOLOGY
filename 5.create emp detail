@@ -1,0 +1,34 @@
+
+<html>
+<head>
+    <title>Employee Registration</title>
+    <script>
+        function showDetails() {
+            details.innerHTML =
+                "Name: " + name.value +
+                "<br>ID: " + id.value +
+                "<br>Address: " + address.value +
+                "<br>Department: " + department.value +
+                "<br>Mobile: " + mobile.value +
+                "<br>City: " + city.value;
+        }
+    </script>
+</head>
+<body>
+    Name: <input id="name"><br>
+    ID: <input id="id"><br>
+    Address: <input id="address"><br>
+    Department: <input id="department"><br>
+    Mobile: <input id="mobile"><br>
+    City: 
+    <select id="city">
+        <option>Select</option>
+        <option>New York</option>
+        <option>Los Angeles</option>
+        <option>Chicago</option>
+        <option>Houston</option>
+    </select><br><br>
+    <button onclick="showDetails()">Submit</button>
+    <div id="details"></div>
+</body>
+</html>
