@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Portal</title>
+    <style>
+        body { font-family: Arial; }
+        .job { margin: 10px; padding: 10px; border: 1px solid #ccc; }
+        button { padding: 5px 10px; background: green; color: white; }
+    </style>
+</head>
+<body>
+    <h1>Job Portal</h1>
+
+    <div class="job">
+        <h3>Web Developer</h3>
+        <p>Location: New York</p>
+        <button>Apply</button>
+    </div>
+
+    <div class="job">
+        <h3>Data Analyst</h3>
+        <p>Location: London</p>
+        <button>Apply</button>
+    </div>
+</body>
+</html>
