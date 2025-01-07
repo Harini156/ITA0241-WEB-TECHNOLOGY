@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple JavaScript</title>
+    <script>
+        function performOperations() {
+            document.getElementById("exp").innerHTML = Math.exp(2);
+            document.getElementById("decimal").innerHTML = (5.6789).toFixed(2);
+            document.getElementById("string").innerHTML = 123 + "";
+            document.getElementById("negInfinity").innerHTML = -Infinity;
+        }
+    </script>
+</head>
+<body onload="performOperations()">
+    <p id="exp"></p>
+    <p id="decimal"></p>
+    <p id="string"></p>
+    <p id="negInfinity"></p>
+</body>
+</html>
