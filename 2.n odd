@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <input type="number" id="num" placeholder="Enter a number">
+    <button onclick="alert((Math.round(num.value) % 2 === 0) ? Math.round(num.value) - 1 : Math.round(num.value))">Show Nearest Odd</button>
+</body>
+</html>
