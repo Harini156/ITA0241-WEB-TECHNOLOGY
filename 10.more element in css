@@ -3,10 +3,10 @@
 <head>
     <title>Simple Page</title>
     <style>
-        body { font-family: Arial; background: #f0f8ff; margin: 0; text-align: center; }
-        header, footer { background: #4CAF50; color: white; padding: 10px; }
-        nav a { color: white; padding: 10px; text-decoration: none; background: #333; display: inline-block; }
-        nav a:hover { background: #575757; }
+        body { font-family: Arial; background: aliceblue; margin: 0; text-align: center; }
+        header, footer { background: green; color: white; padding: 10px; }
+        nav a { color: white; padding: 10px; text-decoration: none; background: black; display: inline-block; }
+        nav a:hover { background: gray; }
     </style>
 </head>
 <body>
