@@ -34,3 +34,66 @@
     </table>
 </body>
 </html>
+
+
+
+
+##css
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark List</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;">Class Test Mark List</h1>
+    <table>
+        <tr>
+            <th>Student Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>Math</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>Science</td>
+            <td>92</td>
+        </tr>
+        <tr>
+            <td>Emily Johnson</td>
+            <td>English</td>
+            <td>78</td>
+        </tr>
+        <tr>
+            <td>Michael Brown</td>
+            <td>History</td>
+            <td>88</td>
+        </tr>
+    </table>
+</body>
+</html>
+
