@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Visit Count</title>
+</head>
+<body>
+    <h2>Welcome!</h2>
+    <p>Number of visits: <span id="visitCount"></span></p>
+
+    <script>
+        let count = localStorage.getItem("count") || 0;  // Get count from localStorage, or start at 0
+        count++;  // Increment count
+        localStorage.setItem("count", count);  // Save updated count to localStorage
+        document.getElementById("visitCount").textContent = count;  // Display the count
+    </script>
+</body>
+</html>
