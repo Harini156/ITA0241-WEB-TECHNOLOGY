@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>String Operations</title>
+</head>
+<body>
+    <h3>String Operations</h3>
+    <p id="output"></p>
+
+    <script>
+        let str = "Hello, World!";
+        document.getElementById("output").innerHTML = 
+            "Character at index 7: " + str[7] + "<br>" +
+            "Unicode at index 7: " + str.charCodeAt(7) + "<br>" +
+            "Joined String: " + ("Hello" + ", World!") + "<br>" +
+            "From Unicode 65: " + String.fromCharCode(65) + "<br>" +
+            "Uppercase: " + "javascript".toUpperCase();
+    </script>
+</body>
+</html>
