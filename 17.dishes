@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dish Confirmation</title>
+    <script>
+        function confirmDishes() {
+            let dishes = "";
+            if (document.getElementById("pizza").checked) dishes += "Pizza\n";
+            if (document.getElementById("burger").checked) dishes += "Burger\n";
+            if (document.getElementById("pasta").checked) dishes += "Pasta\n";
+            if (document.getElementById("salad").checked) dishes += "Salad\n";
+            if (document.getElementById("soup").checked) dishes += "Soup\n";
+
+            alert(dishes ? "Confirmed Dishes:\n" + dishes : "No dishes selected!");
+        }
+    </script>
+</head>
+<body>
+    <h2>Select Your Dishes</h2>
+    <input type="checkbox" id="pizza"> Pizza<br>
+    <input type="checkbox" id="burger"> Burger<br>
+    <input type="checkbox" id="pasta"> Pasta<br>
+    <input type="checkbox" id="salad"> Salad<br>
+    <input type="checkbox" id="soup"> Soup<br><br>
+    <button onclick="confirmDishes()">Confirm</button>
+</body>
+</html>
