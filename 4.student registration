@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <script>
+        function showDetails() {
+            details.innerHTML =
+                "Name: " + name.value +
+                "<br>Roll: " + roll.value +
+                "<br>Course: " + course.value;
+        }
+    </script>
+</head>
+<body>
+    Name: <input id="name"><br>
+    Roll: <input id="roll"><br>
+    Course: <input id="course"><br>
+    <button onclick="showDetails()">Submit</button>
+    <div id="details"></div>
+</body>
+</html>
