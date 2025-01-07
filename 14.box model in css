@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Example</title>
+    <style>
+        .box {
+            width: 300px; /* Content area width */
+            padding: 20px; /* Space around content */
+            border: 5px solid black; /* Border around padding */
+            margin: 30px; /* Space outside the border */
+            background-color: lightblue; /* Content background */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Box Model Example</h2>
+        <p>This is a simple box model. It demonstrates the content, padding, border, and margin.</p>
+    </div>
+
+</body>
+</html>
