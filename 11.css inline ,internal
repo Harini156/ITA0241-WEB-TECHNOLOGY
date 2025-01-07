@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { background: lightblue; text-align: center; }
+        header { background: green; color: white; padding: 10px; }
+    </style>
+</head>
+<body>
+    <header>CSS Example</header>
+    <h2 style="color: red;">Welcome</h2>
+    <p style="color: blue;">Simple example.</p>
+</body>
+</html>
