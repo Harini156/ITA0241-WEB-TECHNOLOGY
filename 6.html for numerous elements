@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Page</title>
+    <style>
+        .header { background: green; color: white; padding: 20px; text-align: center; }
+        .content { background: lightgray; padding: 20px; }
+        .footer { background: darkgray; color: white; padding: 10px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="header"><h1>Welcome</h1></div>
+    <div class="content">
+        <h2>Content</h2>
+        <p>This is a simple page with CSS classes.</p>
+    </div>
+    <div class="footer"><p>Footer</p></div>
+</body>
+</html>
+
