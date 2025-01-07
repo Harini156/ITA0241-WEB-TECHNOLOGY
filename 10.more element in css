@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Simple Page</title>
+    <style>
+        body { font-family: Arial; background: #f0f8ff; margin: 0; text-align: center; }
+        header, footer { background: #4CAF50; color: white; padding: 10px; }
+        nav a { color: white; padding: 10px; text-decoration: none; background: #333; display: inline-block; }
+        nav a:hover { background: #575757; }
+    </style>
+</head>
+<body>
+    <header>My Simple Page</header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <h2>Welcome!</h2>
+    <p>Enjoy this page.</p>
+    <footer>&copy; 2025 Simple Page</footer>
+</body>
+</html>
